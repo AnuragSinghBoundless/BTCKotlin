@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "550625459872",
+    "project_id": "btcwithmvvm",
+    "storage_bucket": "btcwithmvvm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550625459872:android:02071aeb10c28d7588d3c5",
+        "android_client_info": {
+          "package_name": "com.crickex.india.crickex.btcwithmvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550625459872-2h4eq3p0q3q7r40vtr15r8r7sduj4803.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNrfVgcXltxAeVpfmC1za8aGlXvc7ysoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550625459872-2h4eq3p0q3q7r40vtr15r8r7sduj4803.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

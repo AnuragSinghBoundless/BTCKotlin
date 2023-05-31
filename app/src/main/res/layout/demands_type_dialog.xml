@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:elevation="@dimen/_5sdp"
+        app:cardBackgroundColor="@color/app_background"
+        app:cardCornerRadius="@dimen/_10sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/dialogHeading"
+                style="@style/dialog_heading"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/totalAmt"
+                style="@style/dialog_heading1"
+                android:layout_below="@id/dialogHeading" />
+<View
+    android:id="@+id/view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_1sdp"
+    android:layout_below="@id/totalAmt"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:background="@color/app_action_bar_button"/>
+            <TextView
+                android:id="@+id/dialogDes1"
+                style="@style/dialog_description"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_below="@+id/view" />
+
+            <TextView
+                android:id="@+id/dialogDes2"
+                style="@style/dialog_description"
+                android:layout_marginTop="@dimen/_minus8sdp"
+                android:layout_below="@+id/dialogDes1"
+                />
+
+
+            <androidx.cardview.widget.CardView
+                style="@style/button_style"
+                android:layout_below="@id/dialogDes2"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_40sdp">
+
+                <TextView
+                    android:id="@+id/ok"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/gilroy_semibold"
+                    android:gravity="center"
+                    android:padding="@dimen/_8sdp"
+                    android:text="@string/ok"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp"
+                    app:fontFamily="@font/gilroy_semibold" />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

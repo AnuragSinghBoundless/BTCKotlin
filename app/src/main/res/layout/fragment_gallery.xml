@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.ui.gallery.GalleryFragment">
+
+    <TextView
+        android:id="@+id/txtHeading"
+        style="@style/dialog_heading"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="@string/select_billing_firm" />
+
+    <TextView
+     style="@style/dialog_description"
+        android:id="@+id/txtSearch"
+        android:layout_alignParentEnd="true"
+        android:text="@string/search_label"
+        android:layout_below="@+id/txtHeading"/>
+
+    <RadioGroup
+        android:id="@+id/rdGrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSearch"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/rdBTC"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/app_action_bar_button"
+            android:buttonTint="@color/app_action_bar_button"
+            android:fontFamily="@font/gilroy_semibold"
+            android:minWidth="@dimen/_40sdp"
+            android:minHeight="@dimen/_40sdp"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/btc"
+            android:textColor="@color/app_action_bar_button"
+            android:textSize="@dimen/_13sdp"
+            app:fontFamily="@font/gilroy_semibold" />
+
+        <RadioButton
+            android:id="@+id/rdJSL"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/app_action_bar_button"
+            android:buttonTint="@color/app_action_bar_button"
+            android:fontFamily="@font/gilroy_semibold"
+            android:minWidth="@dimen/_40sdp"
+            android:minHeight="@dimen/_40sdp"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/jsl"
+            android:textColor="@color/app_action_bar_button"
+            android:textSize="@dimen/_13sdp"
+            app:fontFamily="@font/gilroy_semibold" />
+    </RadioGroup>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvViewGR"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rdGrp"
+        android:layout_margin="@dimen/_10sdp"/>
+
+</RelativeLayout>

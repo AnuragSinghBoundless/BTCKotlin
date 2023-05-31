@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">BTCWithMVVM</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="user_name">Enter User Name</string>
+    <string name="search_gr">Enter Gr No.</string>
+    <string name="search_label"><u>Search Gr No </u>.</string>
+    <string name="choose_image">Please Choose Profile Image</string>
+    <string name="search">Search</string>
+    <string name="password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="billing_firm_check_label">Set your Billing Firm</string>
+    <string name="billing_pref_des">Please select your billing preference , by default it is set as JSL</string>
+    <string name="btc">BTC</string>
+    <string name="jsl">JSL</string>
+
+    <string name="storage_permission_denied">Read Storage Permission was denied but it is needed for Profile Image.</string>
+    <string name="ok_caps">OK</string>
+    <string name="cancel_caps">CANCEL</string>
+    <string name="read_storage_permission_required">Read Storage Permission</string>
+    <string name="camera_permission">Camera Permission</string>
+    <string name="camera_permission_denied">Camera Permission was denied but it is needed for Profile Image.</string>
+    <string name="camera">Camera</string>
+    <string name="remove">Remove</string>
+    <string name="settings_caps">SETTINGS</string>
+    <string name="yes_remove">Yes, Remove</string>
+    <string name="no_don_t">No, Don\'t</string>
+
+
+    <array name="colors_loader">
+        <item>@color/app_background</item>
+        <item>@color/app_action_bar_button</item>
+        <item>@color/color_hint</item>
+    </array>
+    <string name="title_activity_dash_board">DashBoard</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="view_gr">View GR</string>
+    <string name="profile">Profile</string>
+    <string name="select_billing_firm">Select Billing Firm</string>
+
+    <string name="menu_home">Home</string>
+    <string name="view_demand">View Demands</string>
+    <string name="on_hold_demands">On Hold</string>
+    <string name="confirmed_demands">Confirmed</string>
+    <string name="paid_balance">Paid</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="wrong_user_pass">You have entered wrong username password</string>
+    <string name="version_update">Update Verion</string>
+    <string name="success">Success</string>
+    <string name="auth_error_message">You are not allowed to use the  expired version of the app</string>
+    <string name="unauth_message">You are not Authorised to access app please contact your admin</string>
+    <string name="auth_message">You are Authorised to Access the app</string>
+    <string name="new_version_error_msg">New Version available , please update your app</string>
+
+    <string name="logout">Logout</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

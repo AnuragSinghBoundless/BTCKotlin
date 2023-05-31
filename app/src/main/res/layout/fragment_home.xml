@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.ui.home.HomeFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/llView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/onHold"
+            style="@style/button_home"
+            android:layout_width="@dimen/_90sdp"
+
+            android:layout_marginEnd="@dimen/_2sdp">
+
+            <TextView
+                style="@style/dialog_description"
+                android:layout_gravity="center"
+                android:text="@string/on_hold_demands"
+                android:textColor="@color/white" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/onConfirmed"
+            style="@style/button_home"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:layout_toEndOf="@+id/onHold">
+
+            <TextView
+                style="@style/dialog_description"
+                android:layout_gravity="center"
+                android:text="@string/confirmed_demands"
+                android:textColor="@color/white" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/paidBalance"
+            style="@style/button_home"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:layout_toEndOf="@+id/onConfirmed">
+
+            <TextView
+                style="@style/dialog_description"
+                android:layout_gravity="center"
+                android:text="@string/paid_balance"
+                android:textColor="@color/white" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDemand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llView"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        />
+
+
+</RelativeLayout>
