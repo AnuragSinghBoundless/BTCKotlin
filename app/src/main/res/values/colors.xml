@@ -10,5 +10,6 @@
     <color name="app_background">#ECF8F4</color>
     <color name="app_action_bar_button">#62CC39</color>
     <color name="color_hint">#009688</color>
+    <color name="color_pink">#df90fd</color>
 
 </resources>
